@@ -1,0 +1,16 @@
+{
+    "name": "bruno/cobranca-core-test",
+    "description": "Modulo principal",
+    "autoload": {
+        "psr-4": {
+            "Bruno\\CobrancaCoreTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Serrate",
+            "email": "brunostj@hotmail.com"
+        }
+    ],
+    "require": {}
+}
