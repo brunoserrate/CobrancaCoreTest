@@ -3,7 +3,8 @@
     "description": "Modulo principal",
     "autoload": {
         "psr-4": {
-            "Bruno\\CobrancaCoreTest\\": "src/"
+            "Bruno\\CobrancaCoreTest\\": "src/",
+            "Cliente01\\": "vendor/bruno/cobranca-modulo1/src/"
         }
     },
     "authors": [
@@ -12,5 +13,13 @@
             "email": "brunostj@hotmail.com"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/brunoserrate/CobrancaModulo1"
+        }
+    ],
+    "require": {
+        "bruno/cobranca-modulo1": "^v1.0.1"
+    }
 }

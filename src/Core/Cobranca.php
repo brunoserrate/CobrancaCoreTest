@@ -6,14 +6,14 @@ use Core\Cobranca\CobrancaModulo;
 
 // Aqui ficaria um arquivo separado ou vindo de uma base de dados
 $config = [
-    'billing_module' => 'Cliente\\ModuloCliente01\\Cliente01Module', // Ou Cliente02Module
+    'billing_module' => 'Cliente01\\ModuloCliente01', // Ou ModuloCliente02
 ];
 
 // Obtém a classe do módulo a ser usado
 $classeModulo = $config['billing_module'];
 
 // Verifica se a classe existe e estende CobrancaModulo
-if (class_exists($classeModulo) && is_subclass_of($classeModulo, CobrancaModulo::class)) {
+if (class_exists($classeModulo) ) {
     // Instancia o módulo dinamicamente
     $moduloCobranca = new $classeModulo();
 

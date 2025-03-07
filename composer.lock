@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "10185b6b619b1d21a9611410b8e88b94",
+    "packages": [
+        {
+            "name": "bruno/cobranca-modulo1",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunoserrate/CobrancaModulo1.git",
+                "reference": "321cd9b56a2779844fb94eaa51428d152daac1fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunoserrate/CobrancaModulo1/zipball/321cd9b56a2779844fb94eaa51428d152daac1fd",
+                "reference": "321cd9b56a2779844fb94eaa51428d152daac1fd",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bruno\\CobrancaModulo1\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Bruno Serrate",
+                    "email": "brunostj@hotmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/brunoserrate/CobrancaModulo1/tree/v1.0.1",
+                "issues": "https://github.com/brunoserrate/CobrancaModulo1/issues"
+            },
+            "time": "2025-03-07T14:02:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
