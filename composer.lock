@@ -4,26 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10185b6b619b1d21a9611410b8e88b94",
+    "content-hash": "b18181104cc117cfc2ea6f63d0ed6bc2",
     "packages": [
         {
-            "name": "bruno/cobranca-modulo1",
+            "name": "bruno/cobranca-modulo-interface",
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/brunoserrate/CobrancaModulo1.git",
-                "reference": "321cd9b56a2779844fb94eaa51428d152daac1fd"
+                "url": "https://github.com/brunoserrate/CobrancaModuloInterface.git",
+                "reference": "4d1b901071d5ff6f2bed93a75afa8b9b02efcf69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunoserrate/CobrancaModulo1/zipball/321cd9b56a2779844fb94eaa51428d152daac1fd",
-                "reference": "321cd9b56a2779844fb94eaa51428d152daac1fd",
+                "url": "https://api.github.com/repos/brunoserrate/CobrancaModuloInterface/zipball/4d1b901071d5ff6f2bed93a75afa8b9b02efcf69",
+                "reference": "4d1b901071d5ff6f2bed93a75afa8b9b02efcf69",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Bruno\\CobrancaModulo1\\": "src/"
+                    "CobrancaModuloInterface\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Bruno Serrate",
+                    "email": "brunostj@hotmail.com"
+                }
+            ],
+            "description": "Interface do modulo core de cobranca",
+            "support": {
+                "source": "https://github.com/brunoserrate/CobrancaModuloInterface/tree/v1.0.1",
+                "issues": "https://github.com/brunoserrate/CobrancaModuloInterface/issues"
+            },
+            "time": "2025-03-18T03:27:05+00:00"
+        },
+        {
+            "name": "bruno/cobranca-modulo1",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunoserrate/CobrancaModulo1.git",
+                "reference": "19ea4a7caae88bdf3d4d162ce802414f091f6bbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunoserrate/CobrancaModulo1/zipball/19ea4a7caae88bdf3d4d162ce802414f091f6bbf",
+                "reference": "19ea4a7caae88bdf3d4d162ce802414f091f6bbf",
+                "shasum": ""
+            },
+            "require": {
+                "bruno/cobranca-modulo-interface": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cliente01\\": "src/"
                 }
             },
             "authors": [
@@ -33,10 +69,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/brunoserrate/CobrancaModulo1/tree/v1.0.1",
+                "source": "https://github.com/brunoserrate/CobrancaModulo1/tree/v1.1.1",
                 "issues": "https://github.com/brunoserrate/CobrancaModulo1/issues"
             },
-            "time": "2025-03-07T14:02:28+00:00"
+            "time": "2025-03-18T03:34:01+00:00"
         }
     ],
     "packages-dev": [],

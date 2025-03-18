@@ -1,12 +1,14 @@
 # CobrancaCoreTest
-Teste de módulos de cobrança. Esse projeto é o core
 
-A ideia do projeto é criar módulos diferentes de uma determinada classe (no caso dessa, de cobrança) e acoplar na principal.
+Este é o projeto principal que define o **core do sistema de cobrança**. Ele contém a lógica genérica e os métodos base para criação de acordos, retornos, e outras operações relacionadas à cobrança.
 
-Então teremos um módulo único e principal (que simularia a do sistema) e que chamaria outros módulos instalados por servidor:
+## Objetivo
+O **CobrancaCoreTest** fornece uma estrutura padronizada para lidar com operações de cobrança, delegando a implementação específica para módulos externos.
 
-Servidor 1:
-Core -> cliente 01 -> Core
+## Estrutura dos Projetos
 
-Servidor 2:
-Core -> cliente 02 -> Core
+- **CobrancaModuloInterface.php**: Interface principal que espelha os métodos da classe abstrata do módulo principal, garantindo que todas as implementações de clientes sigam o mesmo contrato. Esse arquivo pode ser localizado no projeto [CobrancaModuloInterface](https://github.com/brunoserrate/CobrancaModuloInterface).
+
+- **CobrancaModulo.php**: Módulo abstrato que é utilizado no sistema principal. Esse arquivo pode ser localizado no projeto [CobrancaCoreTest](https://github.com/brunoserrate/CobrancaCoreTest).
+
+- **ModuloCliente01.php**: Módulo de implementação de um cliente especifico. Esse arquivo pode ser localizado no projeto [CobrancaModulo1](https://github.com/brunoserrate/CobrancaModulo1).

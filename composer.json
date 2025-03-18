@@ -17,9 +17,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/brunoserrate/CobrancaModulo1"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/brunoserrate/CobrancaModuloInterface"
         }
     ],
     "require": {
-        "bruno/cobranca-modulo1": "^v1.0.1"
+        "bruno/cobranca-modulo1": "^v1.0.1",
+        "bruno/cobranca-modulo-interface": "^1.0"
     }
 }
